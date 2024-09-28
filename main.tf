@@ -1,5 +1,5 @@
 resource "tfe_workspace" "test" {
-  name         = "test-workspace"
+  name         = "hcp-vault-clust-ws"
   organization = data.tfe_organization.henry-cloud.name
-  tag_names    = ["hcp", "app"]
+  tag_names    = ["hcp-vault", "app"]
 }
